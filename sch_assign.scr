@@ -1,4 +1,3 @@
-schematic
 assign CTRL+P 'NET'
 assign CTRL+G 'DELETE'
 assign CTRL+U 'COPY'
