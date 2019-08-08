@@ -9,3 +9,4 @@ run `lbr_assign.scr` from library editor environment
 
 Put `toglay.ulp` to your `ULP` folder 
 
+`Eagle.scr` is eagle basic environment setup script that is called each time eagle is opened. Default settings like line width or grid size are stored here
