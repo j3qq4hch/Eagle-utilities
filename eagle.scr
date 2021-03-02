@@ -41,7 +41,8 @@ Grid Default On;
 Change Width 0.010in;
 
 PAC:
-Grid Default On;
+GRID mm;
+GRID 0.1;
 Change Width 0.005in;
 Change Size 0.050in;
 MENU '[bin/pads-pcb.svg] PADS package import : RUN import-pads-powerpcb-v5;' \
