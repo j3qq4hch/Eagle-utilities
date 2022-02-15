@@ -220,16 +220,16 @@
                         "file_function": "Copper",
                         "layer": 2,
                         "layer_details": "mixed",
-                        "layer_type": "Bottom"
+                        "layer_type": "Inner"
                     },
-                    "filename_format": "%PREFIX/%N_%FF.GBL",
+                    "filename_format": "%PREFIX/%N_%FF.G2L",
                     "layers": [
-                        16,
                         17,
-                        18
+                        18,
+                        2
                     ],
                     "milling": false,
-                    "name": "Bottom copper",
+                    "name": "Inner copper (l2)",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
@@ -243,16 +243,97 @@
                     },
                     "board_outline": false,
                     "config": {
-                        "file_function": "Legend",
-                        "index": 1,
-                        "layer_type": "Bottom"
+                        "file_function": "Copper",
+                        "layer": 3,
+                        "layer_details": "mixed",
+                        "layer_type": "Inner"
                     },
-                    "filename_format": "%PREFIX/%N_%FF.VSCORE",
+                    "filename_format": "%PREFIX/%N_%FF.G3L",
                     "layers": [
-                        102
+                        17,
+                        18,
+                        3
                     ],
                     "milling": false,
-                    "name": "Vscore",
+                    "name": "Inner copper (l3)",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 4,
+                        "layer_details": "mixed",
+                        "layer_type": "Inner"
+                    },
+                    "filename_format": "%PREFIX/%N_%FF.G3L",
+                    "layers": [
+                        17,
+                        18,
+                        4
+                    ],
+                    "milling": false,
+                    "name": "Inner copper (l4)",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 5,
+                        "layer_details": "mixed",
+                        "layer_type": "Inner"
+                    },
+                    "filename_format": "%PREFIX/%N_%FF.G3L",
+                    "layers": [
+                        17,
+                        18,
+                        15
+                    ],
+                    "milling": false,
+                    "name": "Inner copper (l5)",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 6,
+                        "layer_details": "mixed",
+                        "layer_type": "Bottom"
+                    },
+                    "filename_format": "%PREFIX/%N_%FF.GBL",
+                    "layers": [
+                        16,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Bottom copper",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 }
@@ -278,7 +359,7 @@
                         "from": 1,
                         "to": 16
                     },
-                    "name": "Drill Layer",
+                    "name": "Excellon 1 - 16",
                     "type": "excellon"
                 }
             ]
@@ -302,7 +383,7 @@
             ]
         }
     ],
-    "timestamp": "2021-02-16T15:39:58",
+    "timestamp": "2021-03-26T17:50:21",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "8.6.0"
