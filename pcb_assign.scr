@@ -2,7 +2,7 @@ assign CTRL+0 run 'toglay.ulp 17;run toglay.ulp 18;'
 assign CTRL+1 run 'toglay.ulp 1;run toglay.ulp 21;run toglay.ulp 23; run toglay.ulp 25;run toglay.ulp 51'
 assign CTRL+2 run 'toglay.ulp 16;run toglay.ulp 24;run toglay.ulp 22;run toglay.ulp 26;run toglay.ulp 52'
 assign CTRL+3 run 'toglay.ulp 2;'
-assign CTRL+4 run 'toglay.ulp 15;'
+assign CTRL+4 run 'toglay.ulp 3;'
 assign CTRL+5 run 'toglay.ulp 4;'
 assign CTRL+6 run 'toglay.ulp 5;'
 
