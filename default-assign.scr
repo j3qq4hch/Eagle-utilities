@@ -74,7 +74,7 @@ assign CTRL+G 'DELETE'
 assign CTRL+U 'COPY'
 assign CTRL+R 'GROUP'
 assign CTRL+M 'MOVE'
-
+assign CTRL+Q 'set selection_filter toggle; set sheets toggle'
 
 LBR:
 ASSIGN C+E EDIT;

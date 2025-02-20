@@ -1,3 +1,6 @@
+set Option.FileLocking 0;
+set Warning.PartHasNoUserDefinableValue 0;
+
 BRD:
 Set Obstacle_Mode Ignore;
 grid 1 mm;
@@ -23,5 +26,15 @@ SET INSPECTOR OFF;
 SET SELECTTYPES ALL -Attribute;
 set ControlPanel.View.AutoOpenProjectFolder 0; 
 set Option.AutoLoadMatchingDrawingFile 1;
-
+set Option.ViaLength 0;
+SET WIRE_BEND @ 0 1 2
+set Warning.PartHasNoUserDefinableValue 0;
+MENU '[Laptop]: set Interface.UseCtrlForPanning 1' '[Desktop]: set Interface.UseCtrlForPanning 0' '[Info ON]: set Option.SignalNamesOnPads 1; set Option.SignalNamesOnTraces 1; SET PAD_NAMES ON' '[Info OFF]: set Option.SignalNamesOnPads 0; set Option.SignalNamesOnTraces 0; SET PAD_NAMES OFF' 
 # set Interface.UseCtrlForPanning 1; # For using with trackpad
+
+
+SCH:
+set Option.ShowPartOrigins 1;
+SET SELECTTYPES ALL -Attribute;
+set selection_filter off; 
+set sheets off;
