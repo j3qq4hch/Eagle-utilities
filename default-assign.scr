@@ -1,0 +1,94 @@
+# Default ASSIGN Configuration Script
+#
+# This file can be used to configure the editor windows.
+
+# GENERAL:
+ASSIGN C+M MOVE;
+ASSIGN C+Z UNDO;
+ASSIGN C+Y REDO;
+ASSIGN CS+C COPY;
+ASSIGN CS+A ADD;
+ASSIGN C+D DELETE;
+ASSIGN C+W WIRE;
+ASSIGN C+I INFO;
+ASSIGN C+T TEXT;
+ASSIGN CS+N NAME;
+ASSIGN CS+P POLYGON;
+ASSIGN C+F 'RUN find.ulp';
+#ASSIGN C+X CHANGE;
+#ASSIGN A+A ATTRIBUTE;
+
+ASSIGN C+G NEWGROUP; 
+
+ASSIGN CS+G UNGROUP; 
+
+
+BRD:
+ASSIGN C+E ERRORS;
+ASSIGN CS+D 'DRC;';  # Executes DRC without opening DRC dialog. For dialog sk
+#ASSIGN CS+D DRC;    # Opens DRC dialog.
+ASSIGN CS+V VALUE;
+ASSIGN CS+R RIPUP;
+#ASSIGN A+R RATSNEST;
+ASSIGN C+H HOLE;
+# Route related key assingments
+ASSIGN A+G Set Obstacle_Mode Ignore;
+ASSIGN A+P Set Obstacle_Mode Push;
+ASSIGN A+W Set Obstacle_Mode Walkaround;
+ASSIGN A+1 Set Via_Pattern Perpendicular;
+ASSIGN A+2 Set Via_Pattern Angle_Right;
+ASSIGN A+3 Set Via_Pattern Angle_Left;
+ASSIGN A+4 Set Via_Pattern Stagger;
+ASSIGN A+A DECSpacing;      # While multi-routing, DECrease the spacing between routed wires
+ASSIGN A+S INCSpacing;       # While multi-routing, INCrease the spacing between routed wires
+ASSIGN A+D MINSpacing;       # While multi-routing, set the spacing to the MINimum design rule.
+ASSIGN A+Q SwaPEnd;       # swap's routing to the opposite airwire endpoint
+assign CTRL+0 run 'toglay.ulp 17;run toglay.ulp 18;'
+assign CTRL+1 run 'toglay.ulp 1;run toglay.ulp 21;run toglay.ulp 23; run toglay.ulp 25;run toglay.ulp 51'
+assign CTRL+2 run 'toglay.ulp 16;run toglay.ulp 24;run toglay.ulp 22;run toglay.ulp 26;run toglay.ulp 52'
+assign CTRL+3 run 'toglay.ulp 2;'
+assign CTRL+4 run 'toglay.ulp 3;'
+assign CTRL+5 run 'toglay.ulp 4;'
+assign CTRL+6 run 'toglay.ulp 5;'
+
+assign CTRL+ALT+1 'DISPLAY -1;DISPLAY -21;DISPLAY -23;DISPLAY -25;DISPLAY -51'
+assign CTRL+ALT+2 'DISPLAY -16;DISPLAY -24;DISPLAY -22;DISPLAY -26; DISPLAY -52'
+
+assign CTRL+P 'ROUTE'
+assign CTRL+R 'GROUP'
+assign CTRL+U 'RATSNEST'
+assign CTRL+G 'RIPUP'
+assign CTRL+M 'MOVE'
+assign CTRL+Q 'set selection_filter toggle'
+assign CTRL+W 'set SINGLE_LAYER_MODE toggle'
+
+SCH:
+ASSIGN C+E ERRORS;
+ASSIGN CS+E ERC;
+ASSIGN CS+I INVOKE;
+ASSIGN CS+V VALUE;
+ASSIGN CS+S SMASH;
+ASSIGN A+N NET; 
+assign CTRL+P 'NET'
+assign CTRL+G 'DELETE'
+assign CTRL+U 'COPY'
+assign CTRL+R 'GROUP'
+assign CTRL+M 'MOVE'
+
+
+LBR:
+ASSIGN C+E EDIT;
+
+DEV:
+ASSIGN A+C CONNECT;
+ASSIGN A+P PACKAGE; 
+
+SYM:
+ASSIGN A+P PIN; 
+
+
+PAC:
+ASSIGN C+H HOLE;
+ASSIGN A+P PAD; 
+ASSIGN A+S SMD; 
+

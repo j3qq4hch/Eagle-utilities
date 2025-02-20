@@ -1,0 +1,26 @@
+Set Obstacle_Mode Ignore;
+grid 1 mm;
+Change width 0.2;
+change drill 0.2;
+change diameter 0.5;
+SET WIDTH_MENU 0.2 0.3 0.5 1;
+SET width 0.2;
+SET DIAMETER_MENU 0.5 0.8 1;
+SET DIAMETER 0.5;
+SET DRILL_MENU 0.2 0.3 0.4 0.5;
+set drill 0.2;
+SET ROUTERADIUS_MENU 0.5 1 2 3;
+SET SIZE_MENU 0.75 1 1.5 2 2.5 3;
+set size 1.5;
+change thermals off;
+change font vector;
+change ratio 12;
+set Cmd.Wire.IgnoreCtrlForRadiusMode 1;
+set Interface.PreferredUnit 2;
+SET DESIGN_MANAGER OFF;
+SET INSPECTOR OFF;
+SET SELECTTYPES ALL -Attribute;
+set ControlPanel.View.AutoOpenProjectFolder 0; 
+set Option.AutoLoadMatchingDrawingFile 1;
+
+# set Interface.UseCtrlForPanning 1; # For using with trackpad

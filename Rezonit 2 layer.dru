@@ -1,5 +1,5 @@
-description[de] = <b>JLCPCB 2 layer Design Rules</b>
-description[en] = <b>JLCPCB Design Rules</b>\n
+description[de] = <b>Rezonit 2 layer Design Rules</b>
+description[en] = <b>Rezonit Design Rules</b>\n
 layerSetup = (1*16)
 mtCopper = 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm
 mtIsolate = 1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm
@@ -14,7 +14,7 @@ mdSmdVia = 0mil
 mdSmdSmd = 0.2mm
 mdViaViaSameLayer = 6mil
 mnLayersViaInSmd = 2
-mdCopperDimension = 0.2mm
+mdCopperDimension = 0.3mm
 mdDrill = 6mil
 mdSmdStop = 0mil
 msWidth = 6mil

@@ -1,6 +1,0 @@
-
-assign CTRL+P 'WIRE'
-assign CTRL+G 'DELETE'
-assign CTRL+U 'COPY'
-assign CTRL+R 'GROUP'
-assign CTRL+M 'MOVE'
